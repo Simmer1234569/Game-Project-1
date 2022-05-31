@@ -6,10 +6,10 @@ print('Welcome to the dungeons.')
 time.sleep(1)
 print('You spawn in a village.')
 print('You need to find your way to the dungeon.')
-choice1 = input('Where do you go? Enter 1 for sea and 2 for mountain:')
+choice1 = input('Where do you go? Enter 1 for Devil Peak and 2 for Snowblood Mountain:')
 if choice1 == '1':
-    print('You head toward the sea.')
-    print('A small sign ahead reads: Do not enter the water')
+    print('You prepare to climb for Devil Peak.')
+    print('When you reach the mountain you see that there is a big lightning storm going on and it is going to be unsafe if you continue to climb.)
     print('TBD')
 if choice1 == '2':
     print('TBD')
