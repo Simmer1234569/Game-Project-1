@@ -1,5 +1,7 @@
-print('The Dungeon Raid: By, Parzival, McDoge, Secrete,and .')
+print('The Dungeon Raid: By, Parzival, McDoge, Secretee,and .')
 import time
+import health
+if health == '0' then print('Better luck next time, you unfortunetely died.')
 time.sleep(3)
 print('Hello there.')
 print('Welcome to the dungeons.')
@@ -10,6 +12,20 @@ choice1 = input('Where do you go? Enter 1 for Devil Peak and 2 for Snowblood Mou
 if choice1 == '1':
     print('You prepare to climb for Devil Peak.')
     print('When you reach the mountain you see that there is a big lightning storm going on and it is going to be unsafe if you continue to climb.)
-    print('TBD')
+        choice2 = input('What do you do? Enter G if you want to continue, enter S if you want to stay at base:')
+        if choice2 == 'S':
+            print('You wait and you wait but nothing happens. You decide to call it a day and go home.')
+        if choice2 == 'G':
+            print('You prepare for your journey and you reach an abandoned mine shaft, what do you do?')
+            choice3 = input('Enter N if you want to go into the mineshaft without any equipment, or enter F if you want to look for equipment.')
+            if choice3 == 'N':
+                print('You go into the mineshaft but get attacked by a secret ninja, and blackout. You lose vision and then feel helpless and die.')
+                health(0)
+            if choice3 == 'F':
+                print('You look for equipment and find a sword, and a lamp. You go back to the mineshaft and enter')
+                print('You've been looking for the dungeon for hours now and you are starving now but you have found an instinct that the dungeon might be in the mineshaft.')
+                choice4('Enter 1 if you want to search for food, enter 2 if you want to continue to search for the dungeon')
+                    if choice4 == '2'
+                        print('You continue to 
 if choice1 == '2':
     print('TBD')
