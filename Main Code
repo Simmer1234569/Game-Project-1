@@ -1,0 +1,15 @@
+print('The Dungeon Raid: By, Parzival, McDoge, Secrete,and .')
+import time
+time.sleep(3)
+print('Hello there.')
+print('Welcome to the dungeons.')
+time.sleep(1)
+print('You spawn in a village.')
+print('You need to find your way to the dungeon.')
+choice1 = input('Where do you go? Enter 1 for sea and 2 for mountain:')
+if choice1 == '1':
+    print('You head toward the sea.')
+    print('A small sign ahead reads: Do not enter the water')
+    print('TBD')
+if choice1 == '2':
+    print('TBD')
