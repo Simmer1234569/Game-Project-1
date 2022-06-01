@@ -1,6 +1,5 @@
 print('The Dungeon Raid: By, Parzival, McDoge, Secretee,and .')
 import time
-import health
 health(10)
 if health == '0' then print('Better luck next time, you unfortunetely died.')
 time.sleep(3)
