@@ -27,11 +27,21 @@ if choice1 == '1':
             if choice3 == 'F':
                 print('You look for equipment and find a sword, and a lamp. You go back to the mineshaft and enter')
                 print('Youve been looking for the dungeon for hours now and you are starving now but you have found an instinct that the dungeon might be in the mineshaft.')
-                choice4 = input('Enter 1 if you want to search for food, enter 2 if you want to continue to search for the dungeon')
+                choice4 = input('Enter 1 if you want to search for food, enter 2 if you want to continue to search for the dungeon, enter 3 if you want to exit the mineshaft and search somewhere else.')
                 if choice4 == '2':
                     print('You continue to search for the dungeon but on the way you find food. You do lose some health though.')
                     health(9)
                 if choice4 == '1': 
-                        
-                        if choice1 == '2':
-                            print('TBD')
+                    print('You search for food and on the way you find a secret dungeon that you think might be the one you are looking for.')
+                    print('Congratulation, you have found the dungeon. You have been awarded 10 DUN tokens.')
+                if choice4 == '3':
+                    print('You exit the mineshaft and continue to look for the dungeon. You climb for days and reach the peak.')
+                        choice5 == input('Do you want to rest or continue searching for the dungeon? Enter R if you want to rest and enter C if you want to continue.')
+                            if choice5 == 'C':
+                                health(-1)
+                                    print('You continue to search when a dragon swoops above you and swallows you.')
+                                    print('Unfortunetely you have died, better luck next time. For reaching this far you have been awarded 1 DUN token')
+                            if choice5 == 'R':
+                                print('You sit down to rest and sleep and when you wake up you see a dragon flying above you. What do you do?')
+if choice1 == '2':
+    print('TBD')
