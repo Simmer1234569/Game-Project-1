@@ -36,12 +36,12 @@ if choice1 == '1':
                     print('Congratulation, you have found the dungeon. You have been awarded 10 DUN tokens.')
                 if choice4 == '3':
                     print('You exit the mineshaft and continue to look for the dungeon. You climb for days and reach the peak.')
-                        choice5 == input('Do you want to rest or continue searching for the dungeon? Enter R if you want to rest and enter C if you want to continue.')
-                            if choice5 == 'C':
-                                health(-1)
-                                    print('You continue to search when a dragon swoops above you and swallows you.')
-                                    print('Unfortunetely you have died, better luck next time. For reaching this far you have been awarded 1 DUN token')
-                            if choice5 == 'R':
-                                print('You sit down to rest and sleep and when you wake up you see a dragon flying above you. What do you do?')
+                    choice5 == input('Do you want to rest or continue searching for the dungeon? Enter R if you want to rest and enter C if you want to continue.')
+                    if choice5 == 'C':
+                        health(-1)
+                        print('You continue to search when a dragon swoops above you and swallows you.')
+                        print('Unfortunetely you have died, better luck next time. For reaching this far you have been awarded 1 DUN token')
+                    if choice5 == 'R':
+                        print('You sit down to rest and sleep and when you wake up you see a dragon flying above you. What do you do?')
 if choice1 == '2':
     print('TBD')
