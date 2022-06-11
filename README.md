@@ -1,2 +1,2 @@
 # Game Project 1
-This is a dungeon and dragon game that awards you with crypto.
+Still in testing. This is a game where you make crucial choices that drive the next decisision you have to make.
