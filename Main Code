@@ -1,4 +1,4 @@
-print('The Dungeon Raid: By, Parzival, McDoge, Secret,and .')
+print('The Dungeon Raid')
 import time
 health = print('Your health is 10')
 health = ('10')
